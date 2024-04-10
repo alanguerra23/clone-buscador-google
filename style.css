@@ -1,0 +1,49 @@
+/* Estilo para o cabeçalho */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Estilo para a imagem do logo */
+header img {
+  width: 65px;
+}
+
+/* Estilo para o formulário de pesquisa */
+form {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+/* Estilo para o campo de pesquisa */
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+/* Estilo para o botão de pesquisa */
+button[type="submit"] {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Estilo para a área de resultados */
+#resultados {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
